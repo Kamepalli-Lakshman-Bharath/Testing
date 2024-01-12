@@ -1,3 +1,4 @@
+import Greetings from "components/Greeting";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       >
         Go to about
       </Link>
+
+      <Greetings />
     </>
   );
 }
