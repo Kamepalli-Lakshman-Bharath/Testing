@@ -1,5 +1,5 @@
 import Header from "widgets/header";
-import Greetings from "components/Greeting";
+import Greetings from "../components/Greeting";
 import Link from "next/link";
 export default function Home() {
   return (

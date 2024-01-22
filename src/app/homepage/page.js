@@ -1,6 +1,6 @@
 import Header from "widgets/header";
-import Greetings from "components/Greeting";
-import Message from "components/Message";
+import Greetings from "../../components/Greeting.jsx";
+import Message from "../../components/Message.jsx";
 
 const Homepage = (props) => {
   return (
